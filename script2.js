@@ -68,4 +68,55 @@ if (years.includes(1998)) {
     console.log(ageCalc(years[4]) + " Years old")
 }
 let mas = 2000000
-console.log(toLocaleString(mas));
+
+// OBJECT LEARN
+const newUser = {
+    name: "Tony",
+    age: 15,
+    skinColor: "Black",
+    hobby: "Coding",
+    girlfriend: "None",
+    bestFriend: "None",
+    friends: ["Grace", "Mustapha", "Tobi", "Tunde", "Tayo", "Titi", "Tola", "Tosin"],
+    check: function(anything){
+      console.log(anything);
+    }
+}
+
+
+let home = "House"
+newUser.check(home);
+// console.log(newUser.friends[2])
+
+
+
+// const intrestedIn = prompt("What do you want to know about Tony? Choose between name, age, skinColor, hobby, girlfriend, bestFriend");
+// console.log(intrestedIn)
+// if (newUser[intrestedIn] == undefined) {
+//     console.log("Wrong info")
+//   }else{
+//     console.log(newUser[intrestedIn]);
+//   }
+
+// if (intrestedIn == "name") {
+//   console.log(newUser.name);
+// } else if (intrestedIn == "age") {
+//   console.log(newUser.age);
+// } else if (intrestedIn == "skinColor") {
+//   console.log(newUser.skinColor);
+// } else if (intrestedIn == "hobby") {
+//   console.log(newUser.hobby);
+// } else if (intrestedIn == "girlfriend") {
+//   console.log(newUser.girlfriend);
+// } else if (intrestedIn == "bestFriend") {
+//   console.log(newUser.bestFriend);
+// }else{
+//     console.log("Wrong input")
+// }
+
+const userTest = {}
+userTest["name"] = "Tony";
+userTest["age"] = 19;
+userTest["hobby"] = "Coding";
+
+console.log(userTest.age)
