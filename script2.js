@@ -72,7 +72,11 @@ let mas = 2000000
 // OBJECT LEARN
 const newUser = {
     name: "Tony",
-    age: 15,
+    year: 1999,
+    calc: function(){
+      this.age = date.getFullYear() - this.year;
+      return this.age;
+    },
     skinColor: "Black",
     hobby: "Coding",
     girlfriend: "None",
@@ -83,6 +87,7 @@ const newUser = {
     }
 }
 
+console.log(newUser.calc())
 
 let home = "House"
 newUser.check(home);
