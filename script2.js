@@ -125,3 +125,14 @@ userTest["age"] = 19;
 userTest["hobby"] = "Coding";
 
 console.log(userTest.age)
+
+// LOOPING
+// FOR LOOP
+for(let i = 1; i <= 10; i++){
+  console.log(`Change in number ${i}`)
+}
+
+const tonyArray = ["Tony", "Grace", "Mustapha", "Tobi", "Tunde", "Tayo", "Titi", "Tola", "Tosin"];
+for(let i = 0; i < 9; i++){
+  console.log(`Array of ${tonyArray[i]}`)
+}
