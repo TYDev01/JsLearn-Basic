@@ -136,3 +136,23 @@ const tonyArray = ["Tony", "Grace", "Mustapha", "Tobi", "Tunde", "Tayo", "Titi",
 for(let i = 0; i < 9; i++){
   console.log(`Array of ${tonyArray[i]}`)
 }
+
+
+
+// let start = 1;
+// let end = 3;
+// let stop = 5;
+
+// for(let i = start; i <= stop; i++){
+//   console.log(`\n ${i} times table \n`);
+
+// for(let j = start; j <= end; j++){
+//   console.log(`${i} x ${j} = ${i * j}`);
+// }
+// }
+
+// LOOPING BACKWARDS
+let backArray = ["Tony", "Grace", "Mustapha", "Tobi", "Tunde", "Tayo", "Titi", "Tola", "Tosin"];
+for(let i = backArray.length -1; i >= 0; i--){
+  console.log(backArray[i])
+}
