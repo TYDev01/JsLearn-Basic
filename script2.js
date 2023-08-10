@@ -156,3 +156,12 @@ let backArray = ["Tony", "Grace", "Mustapha", "Tobi", "Tunde", "Tayo", "Titi", "
 for(let i = backArray.length -1; i >= 0; i--){
   console.log(backArray[i])
 }
+
+// MULTIPLICATION TABLE
+for(let i = 1; i < 4; i++){
+  console.log(`----Multiplying by ${i}`);
+
+  for(let x = 1; x < 10; x++){
+    console.log(`${i} x ${x} = ${i * x}`);
+  }
+}
