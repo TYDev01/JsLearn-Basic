@@ -173,12 +173,12 @@ console.log(`You're ${userAgeCalc(userAge)} years old`)
 //   i++;
 // }
 
-let dice = Math.trunc(Math.random() * 5) + 1;
+// let dice = Math.trunc(Math.random() * 5) + 1;
 
-while(dice !== 5){
-  dice = Math.trunc(Math.random() * 5) + 1;
-  console.log(`you roled a ${dice}`)
-  if(dice === 5){
-    console.log("you win")
-  }
-}
+// while(dice !== 5){
+//   dice = Math.trunc(Math.random() * 5) + 1;
+//   console.log(`you roled a ${dice}`)
+//   if(dice === 5){
+//     console.log("you win")
+//   }
+// }
