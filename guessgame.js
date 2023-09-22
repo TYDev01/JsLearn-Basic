@@ -8,7 +8,8 @@ let score = document.querySelector(".score");
 let highscore = document.querySelector(".highscore");
 let again = document.querySelector(".again");
 let body = document.querySelector("body");
-
+let som = Math.trunc(Math.random() * 100);
+console.log(som)
 let secreteNumber = Math.trunc(Math.random() * 20) + 1;
 console.log(secreteNumber);
 let totalScore = 20;
@@ -30,7 +31,8 @@ again.addEventListener("click", () => {
 
 check.addEventListener("click", () => {
   let guess = Number(document.querySelector(".guess").value);
-  //   console.log(guess)
+      // secreteNumber = Math.trunc(Math.random() * 20) + 1;
+     // console.log(secreteNumber)
   if (!guess) {
     message.textContent = "Add any number ";
   } else if (guess > secreteNumber) {
@@ -57,3 +59,15 @@ check.addEventListener("click", () => {
     theSecretNumber.style.width = "30rem";
   }
 });
+
+let start = 0;
+let end = 12;
+// let stop = 3;
+
+for(let i = start; i <= start; i++){
+  console.log(`\n ${i} times table \n`);
+
+for(let j = start; j <= end; j++){
+  console.log(`${i} x ${j} = ${i * j}`);
+}
+}

@@ -16,6 +16,9 @@ body {
   color: #eee;
   background-color: #222;
   /* background-color: #60b347; */
+  background: #ededed;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  
 }
 
 /* LAYOUT */
@@ -23,6 +26,10 @@ header {
   position: relative;
   height: 35vh;
   border-bottom: 7px solid #eee;
+}
+
+header h1{
+  padding-bottom: 4rem;
 }
 
 main {
